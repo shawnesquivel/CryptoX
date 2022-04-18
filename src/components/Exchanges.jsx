@@ -3,10 +3,7 @@ import { useGetExchangesQuery } from "../services/cryptoApi";
 
 const Exchanges = () => {
   const { data } = useGetExchangesQuery();
-  useEffect(() => {
-    console.log(data);
-  });
-  return <div>Exchanges is unavailable until you renew your premium plan.</div>;
+  return <div>Exchanges is currently unavailable.</div>;
 };
 
 export default Exchanges;

@@ -22,7 +22,7 @@ const Cryptocurrencies = ({ simplified }) => {
     setCryptos(filteredData);
   }, [cryptosList, searchTerm]);
 
-  if (cryptos) console.log(cryptos);
+  // if (cryptos) console.log(cryptos);
   if (isFetching) return "Loading...";
   return (
     <>

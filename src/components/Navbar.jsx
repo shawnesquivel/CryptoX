@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">CryptoX {screenSize}</Link>
+          <Link to="/">CryptoX</Link>
         </Typography.Title>
         <Button
           className="menu-control-container"
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link to="/cryptocurrencies">Cryptocurrencies</Link>
           </Menu.Item>
           <Menu.Item icon={<MoneyCollectOutlined />}>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/exchanges">Exchanges (unavailable)</Link>
           </Menu.Item>
           <Menu.Item icon={<BulbOutlined />}>
             <Link to="/news">News</Link>
