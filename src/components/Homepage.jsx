@@ -1,5 +1,6 @@
 import { Cryptocurrencies } from "../components";
 import { News } from "../components";
+import { Summary } from "../components";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 import React from "react";
 
@@ -13,12 +14,14 @@ const Homepage = () => {
 
   const globalStats = data?.data?.stats;
 
+  if (data.data) console.log(data.data);
+
   if (isFetching) return "Loading data...";
 
   return (
     <>
       <Title level={2} className="heading">
-        Realtime Global Crypto Data
+        Crypto Market Overview
       </Title>
       <Row>
         <Col span={12}>
@@ -70,6 +73,7 @@ const Homepage = () => {
         </Title>
       </div>
       <News simplified />
+      <Summary />
     </>
   );
 };

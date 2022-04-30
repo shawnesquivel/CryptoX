@@ -7,7 +7,7 @@ import { Card, Row, Col, Input, Avatar } from "antd";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 
 const Cryptocurrencies = ({ simplified }) => {
-  const count = simplified ? 10 : 100;
+  const count = simplified ? 12 : 100;
 
   const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
   const [cryptos, setCryptos] = useState(cryptosList?.data?.coins);
@@ -21,6 +21,16 @@ const Cryptocurrencies = ({ simplified }) => {
     );
     setCryptos(filteredData);
   }, [cryptosList, searchTerm]);
+
+  // Create our number formatter for $ values.
+  var formatter = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+
+    // These options are needed to round to whole numbers if that's what you want.
+    //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+    //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+  });
 
   // if (cryptos) console.log(cryptos);
   if (isFetching) return "Loading...";
@@ -45,12 +55,7 @@ const Cryptocurrencies = ({ simplified }) => {
                   extra={<img className="crypto-image" src={coin.iconUrl} />}
                   hoverable
                 >
-                  <p>
-                    Price: $
-                    {millify(coin.price, {
-                      precision: 2,
-                    })}
-                  </p>
+                  <p>Price: {formatter.format(coin.price)}</p>
                   <p>MarketCap: ${millify(coin.marketCap)}</p>
                   <p>Daily Change: {millify(coin.change)}%</p>
                 </Card>
