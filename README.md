@@ -1,4 +1,5 @@
 # CRYPTOX - Get the Latest Crypto News!
+Website Link: https://thedailycrypto.netlify.app/
 This project displays news, price, and general information about the Top 100 Cryptocurrencies.
 ![image](https://user-images.githubusercontent.com/94336773/168397708-691fedab-1945-42d4-bd91-efd1facb8788.png)
 
