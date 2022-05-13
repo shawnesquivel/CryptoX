@@ -2,13 +2,19 @@
 This project displays news, price, and general information about the Top 100 Cryptocurrencies.
 ![image](https://user-images.githubusercontent.com/94336773/168397708-691fedab-1945-42d4-bd91-efd1facb8788.png)
 
-## Project Description
-1. Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic information about the cryptocurrency, additional resources, and price information.
-2. Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
 
-### Features
-1. Filter cryptocurrency news based on niche crypto topics, or filter by the top 100 coins.
-2. Get cryptocurrency general information and price data from the last 24 hours
+## Project Description
+#### #1 - Filter cryptocurrency news based on niche crypto topics, or filter by the top 100 coins.
+Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
+![image](https://user-images.githubusercontent.com/94336773/168397907-c54320cd-abf6-42b0-a30e-933f1687cf5e.png)
+
+##### HOW: Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic 
+
+### Get cryptocurrency general information and price data from the last 24 hours
+
+![image](https://user-images.githubusercontent.com/94336773/168397776-2dd69d45-81e1-4cb4-af3a-405a6d1a8152.png)
+
+
 
 ### Technologies Used
 1. Front end was developed on ReactJS https://reactjs.org/
