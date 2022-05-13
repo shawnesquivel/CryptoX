@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+# CRYPTOX
+This project displays news, price, and general information about the Top 100 Cryptocurrencies.
+
+## Project Description
+1. Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic information about the cryptocurrency, additional resources, and price information.
+2. Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
+
+### Features
+1. Filter cryptocurrency news based on niche crypto topics, or filter by the top 100 coins.
+2. Get cryptocurrency general information and price data from the last 24 hours
+
+### Technologies Used
+1. Front end was developed on ReactJS https://reactjs.org/
+2. Date store with Redux Toolkit https://redux-toolkit.js.org/
+3. UI Design with Ant Design https://ant.design/
+4. ChartJS https://www.chartjs.org/
+5. CoinRanking API https://rapidapi.com/Coinranking/api/coinranking1?utm_source=google&utm_medium=cpc&utm_campaign=DSA&gclid=Cj0KCQjwg_iTBhDrARIsAD3Ib5ivjMGk-_CXCf0fGbLng21mkyppq4LmFaI60015TsajPPuKdrHWKU0aAoWHEALw_wcB
+6. Bing News Search API https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1
+
+## What I Learned
+- This was my first time using the Redux Toolkit. It was quite challenging to understand!
+- This was a great introduction to using data stores. There is some challenging upfront work to get everything set up, but it makes the workflow much easier.
+- 
+
+
+### Resources
+
+This website is based off a tutorial. https://www.youtube.com/watch?v=9DDX3US3kss
+
+### Updates
+
+1. The Exchanges feature is no longer free since CoinRanking API is now on V2
+
+
+# INSTALLATION (this project was deployed with Netlify!)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
