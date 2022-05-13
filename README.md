@@ -1,5 +1,6 @@
 # CRYPTOX
 This project displays news, price, and general information about the Top 100 Cryptocurrencies.
+![image](https://user-images.githubusercontent.com/94336773/168397708-691fedab-1945-42d4-bd91-efd1facb8788.png)
 
 ## Project Description
 1. Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic information about the cryptocurrency, additional resources, and price information.
