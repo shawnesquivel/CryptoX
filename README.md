@@ -1,22 +1,22 @@
-# CRYPTOX
+# CRYPTOX - Get the Latest Crypto News!
 This project displays news, price, and general information about the Top 100 Cryptocurrencies.
 ![image](https://user-images.githubusercontent.com/94336773/168397708-691fedab-1945-42d4-bd91-efd1facb8788.png)
 
 
 ## Project Description
-#### #1 - Filter cryptocurrency news based on niche crypto topics
-Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
+### #1 - Filter cryptocurrency news based on niche crypto topics
+#### HOW: Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
 ![image](https://user-images.githubusercontent.com/94336773/168397907-c54320cd-abf6-42b0-a30e-933f1687cf5e.png)
 
-#### #2 Search from the top 100 coins
+#### #2 Search from the top 100 coins 
+##### HOW: Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. 
 
 ![image](https://user-images.githubusercontent.com/94336773/168398160-b6cda67a-9a8d-44b2-902f-ebd0504e4eed.png)
 
 
-##### HOW: Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic 
 
-### Get cryptocurrency general information and price data from the last 24 hours
-
+### #3 - Get cryptocurrency general information and price data from the last 24 hours
+#### HOW: Click any cryptocurrency card.
 ![image](https://user-images.githubusercontent.com/94336773/168397776-2dd69d45-81e1-4cb4-af3a-405a6d1a8152.png)
 
 
@@ -31,7 +31,7 @@ Click the News tab to filter the latest news by your favourite coin, or a niche 
 
 ## What I Learned
 - This was my first time using the Redux Toolkit. It was quite challenging to understand, but I often referred to this diagram: 
-- ![image](https://user-images.githubusercontent.com/94336773/168397978-ad460756-4712-40df-8cdf-408956e5c940.png)
+![image](https://user-images.githubusercontent.com/94336773/168397978-ad460756-4712-40df-8cdf-408956e5c940.png)
 - There is quite a bit of upfront work and added technical complexity to get your data stores  set up, but it makes the workflow much easier for making many requests.
 
 ## Next Features To Be Added
