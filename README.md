@@ -4,9 +4,14 @@ This project displays news, price, and general information about the Top 100 Cry
 
 
 ## Project Description
-#### #1 - Filter cryptocurrency news based on niche crypto topics, or filter by the top 100 coins.
+#### #1 - Filter cryptocurrency news based on niche crypto topics
 Click the News tab to filter the latest news by your favourite coin, or a niche cryptocurrency topic.
 ![image](https://user-images.githubusercontent.com/94336773/168397907-c54320cd-abf6-42b0-a30e-933f1687cf5e.png)
+
+#### #2 Search from the top 100 coins
+
+![image](https://user-images.githubusercontent.com/94336773/168398160-b6cda67a-9a8d-44b2-902f-ebd0504e4eed.png)
+
 
 ##### HOW: Click the Cryptocurrency tab to view the top 100 coins, or search for your favourite coin. Get basic 
 
