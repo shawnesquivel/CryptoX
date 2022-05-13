@@ -25,8 +25,9 @@ Click the News tab to filter the latest news by your favourite coin, or a niche 
 6. Bing News Search API https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1
 
 ## What I Learned
-- This was my first time using the Redux Toolkit. It was quite challenging to understand!
-- This was a great introduction to using data stores. There is some challenging upfront work to get everything set up, but it makes the workflow much easier.
+- This was my first time using the Redux Toolkit. It was quite challenging to understand, but I often referred to this diagram: 
+- ![image](https://user-images.githubusercontent.com/94336773/168397978-ad460756-4712-40df-8cdf-408956e5c940.png)
+- There is quite a bit of upfront work and added technical complexity to get your data stores  set up, but it makes the workflow much easier for making many requests.
 
 ## Next Features To Be Added
 - Add the Coinbase API so users can buy/sell cryptocurrency
