@@ -20,8 +20,11 @@ This project displays news, price, and general information about the Top 100 Cry
 ## What I Learned
 - This was my first time using the Redux Toolkit. It was quite challenging to understand!
 - This was a great introduction to using data stores. There is some challenging upfront work to get everything set up, but it makes the workflow much easier.
-- 
 
+## Next Features To Be Added
+- Add the Coinbase API so users can buy/sell cryptocurrency
+- Add a blog feature such that users can create "Reddit styled" posts about their favourite cryptocurrencies
+- Add an NFT tab that shows a random NFT from OpenSeas
 
 ### Resources
 
