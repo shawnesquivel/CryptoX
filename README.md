@@ -42,7 +42,10 @@
 
 ### Resources
 
-This website is based off a tutorial. https://www.youtube.com/watch?v=9DDX3US3kss
+This website was built with the help of a video tutorial.
+The Coin Ranking API has deprecated since the video was launched, so I had to rework a lot of that myself, since the endpoints had changed.
+
+https://www.youtube.com/watch?v=9DDX3US3kss
 
 ### Updates
 
